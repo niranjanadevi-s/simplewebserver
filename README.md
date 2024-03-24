@@ -21,48 +21,72 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
+Name: Niranjana devi S
+Register Number: 212221220036
 ~~~
-
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webserver</title>
+<title>Top Software Companies</title>
 </head>
-<body>
-    <h1>Top 5 Revenue Companies</h1>
-    <ol>
-        <li>Apple</li>
-        <li>Google</li>
-        <li>Amazon</li>
-        <li>Samsung</li>
-        <li>TATA</li>
-    </ol>
+<body align="center">
+<caption>Top 5 software companies</caption>
+<table>
+<table border="1" cellspacing="2" cellpadding="2" align="center">
+            <tr>
+                <th>Rank</th>
+                <th>Company Name</th>
+                <th>Revenue(billion dollars)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Microsoft</td>
+                <td>203.08</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Oracle</td>
+                <td>46.07</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SAP SE</td>
+                <td>32.97</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Salesforce</td>
+                <td>30.29</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Adobe</td>
+                <td>17.61</td>
+</table>
 </body>
 </html>
-
 """
 class myhandler(BaseHTTPRequestHandler):
-def do_GET(self):
-print("request received")
-self.send_response(200)
-self.send_header('content-type', 'text/html; charset=utf-8')
-self.end_headers()
-self.wfile.write(content.encode())
-
-server_address = ('', 8000)
-httpd = HTTPServer(server_address, myhandler)
+    def do_GET(self):
+        print("request received")
+        self.send_response(200)
+        self.send_header('content-type', 'text/html; charset=utf-8')
+        self.end_headers()
+        self.wfile.write(content.encode())
+server_address = ('',8000)
+httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
 
 ~~~
 ## OUTPUT:
-![image](https://github.com/niranjanadevi-s/simplewebserver/assets/141748873/923c41ae-9680-48c9-87b4-69a4da64e89a)
-![image](https://github.com/niranjanadevi-s/simplewebserver/assets/141748873/cf30e413-1a9a-4c0b-b710-df5308ccbb8e)
+
+![image](https://github.com/niranjanadevi-s/simplewebserver/assets/141748873/8826e59b-55f6-4233-bfae-44f888697b73)
+
+![image](https://github.com/niranjanadevi-s/simplewebserver/assets/141748873/6fc34cab-c46c-4c39-abc7-e103242db1f2)
+
 
 
 
