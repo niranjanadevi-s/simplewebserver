@@ -80,6 +80,9 @@ httpd.serve_forever()
 
 ![image](https://github.com/niranjanadevi-s/simplewebserver/assets/141748873/6fc34cab-c46c-4c39-abc7-e103242db1f2)
 
+![image](https://github.com/niranjanadevi-s/simplewebserver/assets/141748873/21c5b70e-27ca-46ea-ae02-543448b93bbd)
+
+
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
 
