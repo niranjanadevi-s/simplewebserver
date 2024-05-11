@@ -28,8 +28,6 @@ content = """
 <caption>Top 5 software companies</caption>
 <table>
 <table border="1" cellspacing="2" cellpadding="2" align="center">
-~~~
-~~~
 <tr>
                 <th>Rank</th>
                 <th>Company Name</th>
@@ -62,7 +60,8 @@ content = """
 </table>
 </body>
 </html>
-
+~~~
+~~~
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
