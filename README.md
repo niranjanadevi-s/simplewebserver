@@ -43,6 +43,8 @@ content = """
                 <td>Oracle</td>
                 <td>46.07</td>
             </tr>
+~~~
+~~~
             <tr>
                 <td>3</td>
                 <td>SAP SE</td>
@@ -60,8 +62,6 @@ content = """
 </table>
 </body>
 </html>
-~~~
-~~~
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
