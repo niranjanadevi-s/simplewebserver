@@ -43,9 +43,7 @@ content = """
                 <td>Oracle</td>
                 <td>46.07</td>
             </tr>
-~~~
-~~~
-            <tr>
+           <tr>
                 <td>3</td>
                 <td>SAP SE</td>
                 <td>32.97</td>
@@ -55,6 +53,8 @@ content = """
                 <td>Salesforce</td>
                 <td>30.29</td>
             </tr>
+~~~
+~~~
             <tr>
                 <td>5</td>
                 <td>Adobe</td>
