@@ -28,6 +28,8 @@ content = """
 <caption>Top 5 software companies</caption>
 <table>
 <table border="1" cellspacing="2" cellpadding="2" align="center">
+~~~
+~~~
 <tr>
                 <th>Rank</th>
                 <th>Company Name</th>
