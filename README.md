@@ -28,6 +28,7 @@ content = """
 <caption>Top 5 software companies</caption>
 <table>
 <table border="1" cellspacing="2" cellpadding="2" align="center">
+~~~
             <tr>
                 <th>Rank</th>
                 <th>Company Name</th>
@@ -73,7 +74,7 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
 
-
+~~~
 ## OUTPUT:
 
 ![image](https://github.com/niranjanadevi-s/simplewebserver/assets/141748873/8826e59b-55f6-4233-bfae-44f888697b73)
