@@ -53,12 +53,12 @@ content = """
                 <td>Salesforce</td>
                 <td>30.29</td>
             </tr>
-~~~
-~~~
-            <tr>
+           <tr>
                 <td>5</td>
                 <td>Adobe</td>
                 <td>17.61</td>
+~~~
+~~~
 </table>
 </body>
 </html>
