@@ -60,7 +60,7 @@ content = """
 </table>
 </body>
 </html>
-"""
+
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
