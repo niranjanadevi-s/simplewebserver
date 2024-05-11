@@ -15,7 +15,6 @@ Step 4:Serving the HTML pages.
 
 Step 5:Testing the webserver.
 ## PROGRAM:
-~~~
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
@@ -25,10 +24,10 @@ content = """
 </head>
 <body align="center">
 <caption>Top 5 software companies</caption>
+~~~
 <table>
 <table border="1" cellspacing="2" cellpadding="2" align="center">
-
-            <tr>
+<tr>
                 <th>Rank</th>
                 <th>Company Name</th>
                 <th>Revenue(billion dollars)</th>
